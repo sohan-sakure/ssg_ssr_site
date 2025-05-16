@@ -40,11 +40,11 @@ export default function RevalidatePage() {
 
     return (
         <div className="py-4">
-            <h1 className="font-extrabold text-2xl mb-4">Revalidate Page</h1>
+            <h1 className="font-extrabold text-2xl mb-4">Revalidate page</h1>
 
             <div className="mb-4">
                 <fieldset>
-                    <legend className="font-medium mb-2">Revalidate Options</legend>
+                    <legend className="font-medium mb-2">Revalidate options</legend>
                     {[
                         { label: "Blog pages", value: "siblings" },
                         { label: "All pages", value: "all" },
@@ -75,7 +75,7 @@ export default function RevalidatePage() {
             {specificPage && (
                 <div className="mb-4">
                     <label htmlFor="path" className="block font-medium mb-2">
-                        Path to Revalidate:
+                        Path to revalidate:
                     </label>
                     <input
                         id="path"

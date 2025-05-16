@@ -17,10 +17,11 @@ const ResultsPageContent = async ({ query }: { query: string }) => {
         cache: 'no-store',
     });
     const data = await result.json();
+    console.log("Search results:", data);
 
     return (
-        <div>
-            <h1>Search Results</h1>
+        <div className="my-20">
+            <h1 className="font-bold mb-10">Search Results</h1>
             <p>Results for: {query}</p>
             {/* Fetch and display search results */}
             <ul>

@@ -3,7 +3,7 @@ const ServerRenderedPage = async () => {
     const data = await response.text();
 
     return (
-        <div>
+        <div className="my-20">
             <h1>Server-Side Rendered Page</h1>
             <table>
                 <tbody>
